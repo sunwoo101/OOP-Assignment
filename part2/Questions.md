@@ -28,7 +28,7 @@ Procedures:<br>
 Meld (meldmerge.org), DiffMerge, Visual Studio Code.
 
 6.	In a merged source code file, how does Git let you know there is a conflict?<br>
-On Github Desktop it notifies you that there is a merge conflict and offers you to open the merge conflict in Visual Studio Code. When opening the file in Visual Studio Code it will highlight where the merge conflict is and the differences so you can choose which change to keep.
+On Github Desktop it notifies you that there is a merge conflict and offers you to open the merge conflict in Visual Studio Code. When opening the file in Visual Studio Code it will highlight where the merge conflict is and the differences so you can choose which change to keep. There are markers to show which file has a merge conflict and which lines are conflicting.
 
 7.	What are the steps you can take to resolve Git conflicts?<br>
 Use a merge tool to find out where the merge conflict is then talk to your team members to find out which change/s to keep.
@@ -40,7 +40,7 @@ Git revert allows you to undo a change. You can use git revert using the "git-re
 Git reset allows you to reset the repository back to a specific commit. You can use git reset using the "git-reset" command.
 
 10.	What is the difference between git revert and git reset?<br>
-Git revert undoes a change and removes it. Git reset goes back to the commit so you can edit the mistakes.
+Git reset goes back to a previous commit and git revert undoes changes as a new commit.
 
 11.	True or False: It is okay to commit broken code to the main branch.<br>
 False
