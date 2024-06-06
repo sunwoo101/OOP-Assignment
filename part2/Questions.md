@@ -14,13 +14,21 @@ Working copy: A working copy is a local git repository directory.
 Merge: Merge lets you put together a different version or different changes to a file.
 
 4.	If you are working at a company, which of their policies and procedures might relate to using version control systems such as Git.<br>
-Code management and version control policies.
+Policies:<br>
+- Code management<br>
+- Version control<br>
+- Security<br>
+
+Procedures:<br>
+- Repository setup and managing access<br>
+- Branching and merging<br>
+- Backup<br>
 
 5.	Merge conflicts can occur while using git. List merge tools or diff tools you can use to help you merge and deal with conflicts.<br>
 Meld (meldmerge.org), DiffMerge, Visual Studio Code.
 
 6.	In a merged source code file, how does Git let you know there is a conflict?<br>
-On Github Desktop it notifies you that there is a merge conflict and offers you to open the merge conflict in Visual Studio Code.
+On Github Desktop it notifies you that there is a merge conflict and offers you to open the merge conflict in Visual Studio Code. When opening the file in Visual Studio Code it will highlight where the merge conflict is and the differences so you can choose which change to keep.
 
 7.	What are the steps you can take to resolve Git conflicts?<br>
 Use a merge tool to find out where the merge conflict is then talk to your team members to find out which change/s to keep.
@@ -29,10 +37,10 @@ Use a merge tool to find out where the merge conflict is then talk to your team 
 Git revert allows you to undo a change. You can use git revert using the "git-revert" command.
 
 9.	What does git reset do, and how can you use it?<br>
-Git reset is similar to git revert but git reset is for uncommitted changed. You can use git reset using the "git-reset" command.
+Git reset allows you to reset the repository back to a specific commit. You can use git reset using the "git-reset" command.
 
 10.	What is the difference between git revert and git reset?<br>
-The difference between git revert and reset is that revert is for undoing committed changes and reset is for undoing uncommitted changes.
+Git revert undoes a change and removes it. Git reset goes back to the commit so you can edit the mistakes.
 
 11.	True or False: It is okay to commit broken code to the main branch.<br>
 False
